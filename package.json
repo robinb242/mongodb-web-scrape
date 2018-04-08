@@ -1,5 +1,5 @@
 {
-  "name": "mongodb-news-scraper",
+  "name": "mongodb-web-scraper",
   "version": "1.0.0",
   "description": "web scraper",
   "main": "server.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunita321/mongodb-news-scraper.git"
+    "url": "git+https://github.com/robinb242/mongodb-web-scrape"
   },
   "keywords": [
     "mongodb"
   ],
-  "author": "Sunita Ramnarinesingh",
+  "author": "Robin Bertuccelli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sunita321/mongodb-news-scraper/issues"
+    "url": "https://github.com/robinb242/mongodb-web-scrape/issues"
   },
-  "homepage": "https://github.com/sunita321/mongodb-news-scraper#readme",
+  "homepage": "https://github.com/robinb242/mongodb-web-scrape#readme",
   "dependencies": {
     "body-parser": "^1.16.1",
     "cheerio": "^0.22.0",
