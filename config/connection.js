@@ -5,7 +5,8 @@ var mongoose = require('mongoose');
 
 mongoose.Promise = Promise;
 
-mongoose.connect('mongodb://heroku_m25g50gv:gYJNjFsqROWlnynQhfqk9xeaVDQnj5dj@ds115569.mlab.com:15569/heroku_m25g50gv')
+mongoose.connect('mongodb://heroku_m25g50gv:gYJNjFsqROWlnynQhfqk9xeaVDQnj5dj@ds115569.mlab.com:115569/heroku_m25g50gv');
+
 var db = mongoose.connection;
 
 // Show any mongoose errors

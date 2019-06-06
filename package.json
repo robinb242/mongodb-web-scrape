@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/robinb242/mongodb-web-scrape#readme",
   "dependencies": {
-    "body-parser": "^1.16.1",
+    "body-parser": "^1.18.3",
     "cheerio": "^0.22.0",
-    "express": "^4.14.1",
-    "express-handlebars": "^3.0.0",
-    "mongoose": "^4.8.5",
-    "morgan": "^1.7.0",
-    "request": "^2.79.0"
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^4.13.18",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
   }
 }

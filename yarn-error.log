@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/Cellar/node/11.10.0/bin/node /usr/local/bin/yarn upgrade
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  11.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "mongodb-web-scraper",
+    "version": "1.0.0",
+    "description": "web scraper",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/robinb242/mongodb-web-scrape"
+    },
+    "keywords": [
+      "mongodb"
+    ],
+    "author": "Robin Bertuccelli",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/robinb242/mongodb-web-scrape/issues"
+    },
+    "homepage": "https://github.com/robinb242/mongodb-web-scrape#readme",
+    "dependencies": {
+      "body-parser": "^1.16.1",
+      "cheerio": "^0.22.0",
+      "express": "^4.14.1",
+      "express-handlebars": "^3.0.0",
+      "mongoose": "^4.8.5",
+      "morgan": "^1.7.0",
+      "request": "^2.79.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: No lockfile in this directory. Run `yarn install` to generate one.
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:89389:13
